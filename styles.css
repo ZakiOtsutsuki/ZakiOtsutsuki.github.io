@@ -22,3 +22,11 @@ body {
 .keempat {
     background-color: #018ABD;
 }
+
+.page {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    padding: 300px;
+}
