@@ -1,3 +1,7 @@
+html,body{
+    overflow-x: hidden;
+}
+
 body {
     margin: 0;
 }
@@ -35,7 +39,7 @@ body {
 .p1 {
     font-family: Comic Sans MS, Comic Sans, cursive;
     color: #004581;
-    font-size: 1000%;
+    font-size: 100px;
     margin-left: -90px;
     margin-top: -80px;
 }
