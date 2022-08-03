@@ -24,9 +24,16 @@ body {
 }
 
 .page {
-    text-align: center;
     width: 100px;
     height: 100px;
     margin: auto;
-    padding: 300px;
+    padding: 325px;
+}
+
+.p1 {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: #004581;
+    font-size: 1000%;
+    margin-left: -90px;
+    margin-top: -80px;
 }
