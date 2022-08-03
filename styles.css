@@ -2,26 +2,23 @@ body {
     margin: 0;
 }
 
-.div1 {
+.latar {
+    width: 100%;
+    height: 750px;
+}
+
+.pertama {
     background-color: #DDE8F0;
-    width: 100%;
-    height: 750px;
 }
 
-.div2 {
+.kedua {
     background-color: #004581;
-    width: 100%;
-    height: 750px;
 }
 
-.div3 {
+.ketiga {
     background-color: #97CBDC;
-    width: 100%;
-    height: 750px;
 }
 
-.div4 {
+.keempat {
     background-color: #018ABD;
-    width: 100%;
-    height: 750px;
 }
