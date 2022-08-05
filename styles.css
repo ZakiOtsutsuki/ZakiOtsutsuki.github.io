@@ -80,3 +80,16 @@ img {
 h3 {
     text-align: left;
 }
+
+.quotes {
+    color: #DDE8F0;
+    font-size: xx-large;
+}
+
+.page2 {
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    padding: 325px;
+}
