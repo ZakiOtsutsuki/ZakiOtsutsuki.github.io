@@ -3,9 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/components/header.css">
+    <link rel="stylesheet" href="styles/components/hero.css">
+    <link rel="stylesheet" href="styles/utils.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <h1>hi</h1>
+    <header class="header-section">
+        <div class="header container">
+            <div class="title">
+                <a href="#home">Zaki Jamali Arafi</a>
+            </div>
+            <div class="nav">
+                <nav>
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                            <a href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="hamburger" onclick="showNavBar()">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+        <!-- mobile nav -->
+        <div id="mobile-nav" class="mobile-nav container">
+            <nav>
+                <ul class="mobile-nav-menu">
+                    <li class="mobile-nav-item">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="mobile-nav-item">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="mobile-nav-item">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- <main>
+        <section class="hero-section">
+            <div class="container">
+                <div>
+                    <h1>Zaki Jamali Arafi</h1>
+                    <a href="#" class="btn con-btn">Hubungi Saya</a>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </section>
+        <section></section>
+        <section></section>
+    </main>
+    <footer></footer> -->
+    <script src="src/main.js"></script>
 </body>
 </html>
