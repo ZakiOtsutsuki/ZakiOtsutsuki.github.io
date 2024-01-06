@@ -70,6 +70,17 @@
 
 /* md */
 @media (min-width: 768px) {
+    .title {
+        margin-left: 2rem;
+    }
+    
+    .hamburger {
+        margin-right: 2rem;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
     .hamburger {
         display: none;
     }
@@ -80,7 +91,7 @@
     
     .nav {
         display: block;
-        margin-right: 1rem;
+        margin-right: 2rem;
     }
     
     .nav-menu {
@@ -92,29 +103,19 @@
     
     .nav-item {
         font-weight: 400;
-        font-size: var(--size-lg);
+        font-size: var(--size-xl);
     }
 
     .nav-item:hover {
         color: var(--clr-sky600);
         transition: color 0.3s;
     }
-}
 
-/* lg */
-@media (min-width: 1024px) {
     .title {
         font-size: var(--size-2xl);
         margin-left: 2rem;
     }
 
-    .nav {
-        margin-right: 2rem;
-    }
-
-    .nav-item {
-        font-size: var(--size-xl);
-    }
 }
 
 /* xl */

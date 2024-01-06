@@ -91,6 +91,7 @@
   .hero {
     justify-content: space-between;
     flex-wrap: nowrap;
+    align-items: flex-start;
   }
 
   .about {
