@@ -10,12 +10,14 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  /* border: 1px solid red; */
 }
 
 .about {
   margin-left: 1rem;
   margin-right: 1rem;
   width: 450px;
+  /* border: 1px solid red; */
 }
 
 
@@ -29,12 +31,14 @@
   font-weight: 700;
   font-size: var(--size-xl);
   color: var(--clr-sky600);
+  margin-bottom: 0.5rem;
 }
 
 .about p:nth-child(3) {
   font-weight: 700;
   font-size: var(--size-xl);
   color: var(--clr-dark);
+  margin-top: 0.5rem;
 }
 
 .about p:nth-child(4) {
@@ -42,7 +46,7 @@
   font-size: var(--size-base);
   color: var(--clr-dark);
   margin-top: 0.25rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .con-btn {
