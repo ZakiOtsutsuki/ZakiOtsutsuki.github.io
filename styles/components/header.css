@@ -130,4 +130,12 @@
 }
 
 /* 2xl */
-/* @media (min-width: 1536px) {} */
+@media (min-width: 1536px) {
+    .title {
+        font-size: var(--size-3xl);
+    }
+
+    .nav-item {
+        font-size: var(--size-2xl);
+    }
+}

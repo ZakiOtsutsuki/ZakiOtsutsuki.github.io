@@ -19,7 +19,6 @@
 .btn {
     display: inline-block;
     font-weight: 700;
-    font-size: 20px;
     background: none;
     background-color: var(--clr-sky600);
     color: var(--clr-light);
