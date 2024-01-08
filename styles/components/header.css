@@ -91,7 +91,7 @@
     
     .nav {
         display: block;
-        margin-right: 2rem;
+        margin-right: 4rem;
     }
     
     .nav-menu {
@@ -113,7 +113,7 @@
 
     .title {
         font-size: var(--size-2xl);
-        margin-left: 2rem;
+        margin-left: 4rem;
     }
 
 }
@@ -133,6 +133,11 @@
 @media (min-width: 1536px) {
     .title {
         font-size: var(--size-3xl);
+        margin-left: 8rem;
+    }
+
+    .nav {
+        margin-right: 8rem;
     }
 
     .nav-item {

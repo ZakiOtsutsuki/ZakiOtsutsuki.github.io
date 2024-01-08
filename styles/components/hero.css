@@ -95,8 +95,8 @@
   }
 
   .about {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
 
   .about img {
@@ -122,6 +122,8 @@
 @media (min-width: 1536px) {
   .about {
     width: 6000px;
+    margin-left: 8rem;
+    margin-right: 8rem;
   }
   
   .about_name {
