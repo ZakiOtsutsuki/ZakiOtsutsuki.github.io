@@ -1,0 +1,96 @@
+.contact-section {
+    background-color: var(--clr-slate100);
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+/* .contact {
+
+} */
+
+.contact-heading {
+    text-align: center;
+}
+
+.contact-heading p {
+    color: var(--clr-sky600);
+    font-weight: 700;
+    font-size: var(--size-2xl);
+}
+
+.contact-heading h1 {
+    color: var(--clr-dark);
+    font-weight: 700;
+    font-size: var(--size-4xl);
+}
+
+.contact-form {
+    /* margin-left: 1.5rem;
+    margin-right: 1.5rem; */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    /* border: 1px solid red; */
+}
+
+.contact-form label {
+    color: var(--clr-sky600);
+    font-weight: 700;
+    font-size: var(--size-xl);
+}
+
+#nama,
+#email,
+#pesan {
+    margin-bottom: 0.5rem;
+    background-color: var(--clr-slate200);
+    width: 100%;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+#pesan {
+    height: 6rem;
+}
+
+.form-btn {
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    font-size: var(--size-xl);
+}
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+@media (min-width: 640px) {
+    .contact-form {
+        width: 70%;
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    .contact-form {
+        width: 60%;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .contact-form {
+        width: 50%;
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .contact-form {
+        width: 40%;
+    }
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
